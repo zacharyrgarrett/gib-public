@@ -1,0 +1,66 @@
+/*Default Page Styles*/
+
+/* Remove navbar's default margin-bottom and rounded borders */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+/* Set height of the grid so .sidenav can be 100% */
+.row.content {height: calc(100vh - 50px);}
+
+/* Set gray background color and 100% height */
+.sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+}
+.navelem{
+    border-radius: 25px;
+    background: #ffffff;
+    padding: 15px;
+    width: auto;
+    height: auto;
+    margin: 8px 8px 8px 8px;
+}
+
+.navelem ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.navelem li{
+    padding: 5px;
+    border: solid black;
+    border-width: 1px 0 0 0;
+    /*height: 30px;*/
+    height: auto;
+}
+
+.navelem li:hover {
+    background-color: #f1f1f1;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {height:auto;}
+}
+
+/* General div padding */
+.gen_margin div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

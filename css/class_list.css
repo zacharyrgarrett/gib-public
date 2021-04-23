@@ -1,0 +1,52 @@
+/* Class list stylesheet */
+
+.list{
+    height: calc(60vh);
+    overflow-y: scroll;
+    width: 75%;
+    margin: 30px 150px 0 150px;
+}
+.list::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+.list::-webkit-scrollbar{
+    width: 6px;
+    background-color: #F5F5F5;
+}
+.list::-webkit-scrollbar-thumb{
+    background-color: #000000;
+}
+.list ul{
+    margin: 0 20px 0 20px;
+    list-style-type: none;
+    padding: 0;
+}
+.list li{
+    height: 50px;
+    background-color: #f1f1f1;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    color: black;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 13px;
+}
+.list li:hover{
+    background-color: lightsteelblue;
+}
+.list button{
+    float: right;
+    outline: none;
+    border-width: 0 0 1px 0;
+    background: none;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    width: auto;
+}
+
+.searchbar{
+    font-size: x-small; width: auto; height: auto;
+}

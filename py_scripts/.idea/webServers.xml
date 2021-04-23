@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="aa335830-0618-4940-a9ee-8d1c5b7474fc" name="gibbl.io" url="https://gibbl.io">
+        <fileTransfer rootFolder="/var/www/gib" accessType="SFTP" host="gibbl.io" port="22" sshConfigId="2996fe6c-14dd-4b1d-ab5c-23a74467f563" sshConfig="gib@gibbl.io:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

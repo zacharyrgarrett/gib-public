@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="gibbl.io" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="gibbl.io">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$/.." web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/.cache" />
+            <excludedPath path="/.config" />
+            <excludedPath path="/.local" />
+            <excludedPath path="/.well-known" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
