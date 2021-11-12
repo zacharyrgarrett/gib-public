@@ -1,4 +1,4 @@
-# giblio
+# gibbl.io
 ASU Chatrooms
 
 This code is for the website https://gibbl.io.
